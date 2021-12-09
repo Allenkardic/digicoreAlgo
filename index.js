@@ -29,3 +29,15 @@ function highestTennisScore(arr1, arr2) {
   }
   return results;
 }
+
+// Ques 3
+// this functions returns either YES or NO depending on wether two kangaroo can get to the same location at same time based on starting point and velocity
+
+function kangarooWillArriveSameTime(x1, v1, x2, v2) {
+  // if the sume of both the starting point and velocity of kangaroo 1 is equals to the sum of both the starting point and velocity of kangaro 2 return YES else return no
+  if (x1 + v1 == x2 + v2) {
+    return "YES";
+  } else {
+    return "NO";
+  }
+}
